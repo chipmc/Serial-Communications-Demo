@@ -35,6 +35,11 @@ public:
      */
     void loop();
 
+    /**
+     * @brief Get the response from the Serial1 device
+    */
+    bool getResponse(char *response, int responseSize);
+
 
 protected:
     /**
